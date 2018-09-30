@@ -37,7 +37,7 @@ function search() {
     $("#buttons").html('');
 
     // Get form input 
-    q = $("#query").val();
+    q = $("#query").val() + "official trailer";
     //https://www.googleapis.com/youtube/v3/search?key={your_key_here}&channelId={channel_id_here}&part=snippet,id&order=date&maxResults=20
 
     // Run Get request on API
