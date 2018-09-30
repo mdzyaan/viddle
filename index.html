@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vidle</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+        
+
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1><span>Vid</span>le</h1>
+                <p>Watch the youtube</p>
+                <a data-fancybox data-width="640" data-height="360" href="https://www.youtube.com/watch?v=lLyHXt5K8hk">
+                    Direct link to MP4 video
+                </a>
+                
+            </header>
+            <section>
+                <form action="" id="search-form" name="search-form" onsubmit="return search()">
+                    <div class="fieldcontainer">
+                        <input type="search" id="query" class="search-field" placeholder="search youtube..." style="width: 100%">
+                        <img type="submit" id="search-btn" name="search-btn" value="" src="img/magnifier.png" alt="magnifier" >
+                    </div>
+                </form>
+                <ul id="results">
+
+                </ul>
+                <div id="buttons"></div>
+
+            </section>
+            <footer>
+                copyright &copy; 2018, All Rights Reserved
+            </footer>
+        </div>
+        <!-- JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js" ></script>
+        <script src="js/script.js" ></script>
+    </body>
+</html>
